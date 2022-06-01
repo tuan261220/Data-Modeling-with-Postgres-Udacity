@@ -6,7 +6,7 @@ The goal of this project to build a PostgreSQL database
 
 ## Database design
 
-![](star_schema.jpg)
+![alt text](https://github.com/tuan261220/Data-Modeling-with-Postgres-Udacity/blob/main/star_schema.png?raw=true)
 
 - Fact table : songplays
 - Dimension tables: songs, artist, users, time
