@@ -6,6 +6,10 @@ from sql_queries import *
 import datetime
 
 def process_song_file(cur, filepath):
+    """
+    This is a function for process song file to insert new entries for song and artist table
+    """
+
     # open song file
     df = pd.read_json(filepath, lines = True)
 
@@ -19,6 +23,9 @@ def process_song_file(cur, filepath):
 
 
 def process_log_file(cur, filepath):
+    """
+    This is a function for process log file to insert new entries for songplays table and time table
+    """
     # open log file
     df = pd.read_json(filepath, lines=True)
 
