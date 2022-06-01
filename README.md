@@ -8,8 +8,8 @@ The goal of this project to build a PostgreSQL database
 
 ![](star_schema.jpg)
 
-Fact table : songplays
-Dimension tables: songs, artist, users, time
+- Fact table : songplays
+- Dimension tables: songs, artist, users, time
 ## Project Repository files
 
 The source code is available in three separate **Python** scripts. Below is a brief description of the main files:
